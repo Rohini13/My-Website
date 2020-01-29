@@ -1,0 +1,102 @@
+body {
+    background: black;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  a:hover,
+  a:active,
+  a:focus {
+    color: #0a98c0;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif;
+    font-style: "bold";
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.7em;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  #header {
+    height: 0px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 2px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    background-color:  black;
+    color: #1bb1dc;
+  }
+  #home{
+    background-image:url('https://thumbs.gfycat.com/VeneratedUnhappyIcelandicsheepdog-size_restricted.gif');
+    background-size:cover;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #about{
+    background-image:url('bg.jpg'); 
+    background-size:cover;
+    text-align: center;
+    margin-top: 20px;
+  }
+ 
+  
+  #about {
+    padding: 80px 0;
+  }
+  #portfolio{
+    background-image:url('bg.jpg'); 
+    background-size:cover;
+    text-align: center;
+    margin-top: 20px;
+  }
+ 
+  
+  #portfolio {
+    padding: 80px 0;
+  }
+  #contact{
+    background-image:url('bg.jpg'); 
+    background-size:cover;
+    text-align: center;
+    margin-top: 20px;
+  }
+ 
+  
+  #contact {
+    padding: 80px 0;
+  }
+  
